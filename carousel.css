@@ -11,6 +11,12 @@ body {
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
 .carousel-inner{
   height: 720px;
 
@@ -18,7 +24,7 @@ body {
 }
 .carousel-item{
     height: 100% !important;
-  padding-top: 150px;
+  padding-top: 200px;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -26,11 +32,14 @@ body {
 
 
 }
+.info1{
+  padding-left: 40px;
+}
 
 .C1{
   color: white;
 
-  background-image: url('image/1585759144RPA.jpeg');
+  background-image: url('image/images2.jpeg');
 
 
 }
@@ -61,8 +70,8 @@ background-repeat: no-repeat;
   padding-left: 30px;
   display: table;
 
-
-    /* content: '';
+/*
+    content: '';
       position: absolute;
       top: 0;
       left: 0;
@@ -213,7 +222,7 @@ padding-top: 10px;
 
   padding: 10px;
    padding-top: 10px;
-   padding-right: 30px;
+   padding-right: 20px;
    text-decoration: none;
 
     color: #c4c4c4;
@@ -287,4 +296,150 @@ padding-top: 10px;
 .copyright{
   text-align: center;
   padding-top: 10px;
+}
+
+/*Products ---*/
+
+section{
+    padding: 40px 0;
+}
+.details-card {
+	background: #d3e0ea;
+}
+
+.card-content {
+	background: #dddddd;
+	border: 20px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.card-img {
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+	z-index: 1;
+}
+
+.card-img img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.card-img span {
+	position: absolute;
+    top: 10%;
+    left: 30%;
+
+    padding: 4px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+.card-img span h4{
+        font-size: 12px;
+        margin:0;
+        padding:10px 5px;
+         line-height: 0;
+}
+.card-desc {
+	padding: 1.25rem;
+}
+
+.card-desc h3 {
+	color: #000000;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.card-desc p {
+	color: #747373;
+    font-size: 14px;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 2px;
+	margin-bottom: 20px;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.btn-card{
+	background-color: #1ABC9C;
+	color: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    margin: 0;
+    border: 0;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #fff;
+}
+.btn-card:hover {
+    background: orange;
+}
+a.btn-card {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container2{
+  padding-top: 20px;
+}
+.container {
+  padding-top: 10px;
+}
+.s2{
+  align-items: center;
+  padding-left: 600px;
+}
+.siemens-1{
+  padding-bottom: 10px;
+
+  text-align: center;
+  background-color: white;
+    color: #54e346;
+    font-size: 17px;
+
+}
+.card-container {
+	background: #dddddd;
+	border: 20px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.more2{
+  padding-left: 520px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+/*abb---*/
+.abb1{
+  height: 150px;
+  padding-top: 60px;
+  padding-left: 550px;
+}
+.abb2{
+  height: 150px;
+  padding-top: 60px;
+  padding-left: 630px;
+
 }
