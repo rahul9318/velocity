@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.83.1">
+    <title>velocityautomation</title>
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+
+  <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="carousel.css" rel="stylesheet">
+
+ <!-- Bootstrap Js -->
+   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <style>
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+        if(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+    });
+});
+</script>
+
+
+    <!-- Custom styles for this template -->
+
+  </head>
+  <body>
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#"><img src="image/velocity.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+
+
+
+
+<div class="navigation">
+
+</div>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+              <a href="index.html" class="nav-item   navBar">Home</a>
+
+
+                <div class="nav-item dropdown navBar">
+                    <a href="services.html" class="navBar dropdown-toggle " data-toggle="dropdown">Services</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Hilscher products</a>
+                        <a href="#" class="dropdown-item">Servo drives</a>
+                        <a href="#" class="dropdown-item">Manpower solution</a>
+                        <a href="#" class="dropdown-item">Ethernet cables</a>
+                        <a href="#" class="dropdown-item">Manpower solution</a>
+                        <a href="#" class="dropdown-item">Industrial safety products</a>
+                        <a href="#" class="dropdown-item">Manpower solution</a>
+                        <a href="#" class="dropdown-item">Insudtril interface and panel accessories</a>
+                    </div>
+                </div>
+                  <a href="about.html" class="nav-item  navBar">About</a>
+                <a href="contactus.html" class="nav-item  navBar">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+
+
+
+
+
+  <section class="colored-section" id="testimonials">
+
+
+
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false" data-interval="1000">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid C1">
+          <h1 class="h1">COMPLETE INDUSTRIAL AUTOMATION SOLUTIONS</h1>
+
+        </div>
+        <div class="carousel-item container-fluid C2">
+          <h1 class="h2">Solutions for any Department</h1>
+          <p class="p1">Save time, escalate efficiency and deliver more value in any area of your business.</p>
+        </div>
+        <div class="carousel-item container-fluid C3">
+          <h1 class="h3">Our Services</h1>
+          <p class="p2">Your Process Automation Partner from beginning to end</p>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+
+
+
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+
+<img  class="testimonial-image" src="image/about.png" alt="">
+        <h2>About Us</h2>
+
+        <p>Velocity Automation is satiating the need of Industrial Automation. We are based in the city of Noida, U.P. (India) and we serve clients across the country. </p>
+        <p><a class="btn btn-secondary" href="about.html">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="testimonial-image" src="image/ready.png" alt="">
+
+
+
+        <h2>Services</h2>
+        <p>Manpower Solution Velocity Automation also provides professional engineers / Technical Manpower services to our clients which includes Industrial Automation & Engineering Sector etc</p>
+        <p><a class="btn btn-secondary" href="services.html">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+
+
+        <img class="testimonial-image contact-us" src="image/contact.png" alt="">
+
+
+        <h2>Contact</h2>
+        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="contactus.html">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+          <img class="testimonial" src="image/cogs-icon.png" alt="">
+        <h2 class="featurette-heading">Operations<span class="text-muted"></span></h2>
+        <p class="lead">Together, we can build digital forms that replace paper and streamline data, custom apps that solve your most pressing problems, and automated workflows that accelerate any operational process. With agile process automation, you can make operations leaner and improve compliance without disrupting core systems and processes.</p>
+      </div>
+      <div class="col-md-5">
+        <img height="500" width="500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="image/operations.jpeg" alt=""  preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="500px" height="500px" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+        <img src="image/operations.jpeg" alt="" width="500" height="500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+          <img class="testimonial" src="image/network-icon.png" alt="">
+        <h2 class="featurette-heading">Information Technology<span class="text-muted"></span></h2>
+        <p class="lead">Is IT under pressure to deliver more digital solutions, faster than ever before? We can help you to accelerate time to market for automation projects and ramp up internal capacity for digital transformation. Are you ready to benefit from time saving tech and free up more hours for complex projects?</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+
+        <img src="image/it.jpeg" alt="" width="500" height="500">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+
+      <div class="col-md-7">
+        <img class="testimonial" src="image/sales-icon.png" alt="">
+
+        <h2 class="featurette-heading">Sales & Marketing <span class="text-muted"></span></h2>
+        <p class="lead">All too often, data silos and fragmented point solutions lead to a disconnect between Sales and Marketing. We can help you to streamline workflows and leverage automation to bring Sales and Marketing closer together. With a shared vision and a single source of truth for customer data, you can pave the way to exceptional CX.</p>
+      </div>
+      <div class="col-md-5">
+
+
+                <img src="image/m2.jpeg" alt="" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p class="copyright"> Copyright  @ Velocity Automation</i></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>
