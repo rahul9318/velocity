@@ -200,13 +200,20 @@ body {
 /* ================ Timeline Media Queries ================ */
 
 @media screen and (max-width: 660px) {
-  .P9{padding-top: 20px;
+  .about{
+    padding-top: 100px;
+    font-family: 'Newsreader', serif;
+    text-align: center;
+
+  }
+  .P9{padding-top: 10px;
     font-family: 'Newsreader', serif;
   padding-left: 5px;
   padding-right: 5px;
   font-size: 17px;
 }
 .h9{
+  padding-top: 50px;
   font-size: 40px;
   color: #132c33;
 }
