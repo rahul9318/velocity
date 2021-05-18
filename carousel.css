@@ -261,36 +261,7 @@ padding-top: 10px;
 }
 /* contact css
 -------------------------------------------------- */
-#contact{
-  background-size: cover;
-  background-repeat:no-repeat;
-  background-image: url('image/bg3.jpeg');
-  padding: 100px;
 
-
-
-
-
-}
-.contact-heading{
-  font-size: 80px;
-  padding-left: 40px;
-  padding-top: 100px;
-  color: white;
-  text-align: left;
-  font-style: italic;
-}
-.contact-data{
-  font-size: 40px;
-    padding-left: 50px;
-  padding-bottom: 100px;
-  color: white;
-  text-align: left;
-  font-style: italic;
-}
-.contact-form{
-  padding-left: 30px;
-}
 
 /*FOOTER---*/
 .copyright{
@@ -417,7 +388,7 @@ a.btn-card {
   text-align: center;
   background-color: white;
     color: #54e346;
-    font-size: 17px;
+    font-size: 10px;
 
 }
 .card-container {
@@ -441,5 +412,54 @@ a.btn-card {
   height: 150px;
   padding-top: 60px;
   padding-left: 630px;
+
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .section .abb2 .abb1 .more2 .card-container .siemens-1 .s2 .container .container2 a.btn-card .btn-card:hover {
+    width: 100%;
+  }
+}
+.section-heading{
+
+}
+/*danfoss---*/
+#pricing {
+  padding: 100px;
+  background-color: #e4efe7;
+
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+.pricing-column {
+  padding: 2% 3%;
+
+
+}
+.danfoss-img{
+  height:200px;
+
+}
+.products-btn{
+  color: black;
+}
+.products-btn:hover{
+  color: orange;
+}
+.danfoss-logo{
+  height: 50px;
+}
+.omron-logo{
+  height: 35px;
+}
+.siemens-logo{
+  height: 40px;
+  padding-left: 10px;
+
 
 }

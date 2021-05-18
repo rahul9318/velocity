@@ -1,78 +1,78 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.83.1">
-    <title>velocityautomation</title>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.83.1">
+  <title>velocityautomation</title>
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
   <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="carousel.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="carousel.css" rel="stylesheet">
 
- <!-- Bootstrap Js -->
-   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap Js -->
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
-    <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <style>
-    .dropdown:hover .dropdown-menu{
-        display: block;
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
     }
-    .dropdown-menu{
-        margin-top: 0;
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
     }
-</style>
-<script>
-$(document).ready(function(){
-    $(".dropdown").hover(function(){
+  </style>
+  <style>
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+
+    .dropdown-menu {
+      margin-top: 0;
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".dropdown").hover(function() {
         var dropdownMenu = $(this).children(".dropdown-menu");
-        if(dropdownMenu.is(":visible")){
-            dropdownMenu.parent().toggleClass("open");
+        if (dropdownMenu.is(":visible")) {
+          dropdownMenu.parent().toggleClass("open");
         }
+      });
     });
-});
-</script>
+  </script>
 
 
-    <!-- Custom styles for this template -->
+  <!-- Custom styles for this template -->
 
-  </head>
-  <body>
+</head>
 
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
+<body>
 
-      <a class="navbar-brand" href="index.html"><img src="image/velocity.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html"><img src="image/velocity.png" alt=""></a>
 
 
 
@@ -80,188 +80,193 @@ $(document).ready(function(){
 
 
 
-<div class="navigation">
+        <div class="navigation">
 
-</div>
+        </div>
 
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
               <a href="about.html" class="nav-item   navBar">About</a>
 
 
-                <div class="nav-item dropdown navBar">
-                  <a href="services.html" class="navBar dropdown-toggle "  >Services</a>
+              <div class="nav-item dropdown navBar">
+                <a href="services.html" class="navBar dropdown-toggle ">Services</a>
 
-                    <div class="dropdown-menu">
-                        <a href="" class="dropdown-item">Hilscher products</a>
-                        <a href="#" class="dropdown-item">Servo drives</a>
-                        <a href="#" class="dropdown-item">Manpower solution</a>
-                        <a href="#" class="dropdown-item">Ethernet cables</a>
-                        <a href="#" class="dropdown-item">Manpower solution</a>
-                        <a href="#" class="dropdown-item">Industrial safety products</a>
-                        <a href="#" class="dropdown-item">Manpower solution</a>
-                        <a href="#" class="dropdown-item">Insudtril interface and panel accessories</a>
-                    </div>
+                <div class="dropdown-menu">
+                  <a href="" class="dropdown-item">Hilscher products</a>
+                  <a href="#" class="dropdown-item">Servo drives</a>
+                  <a href="#" class="dropdown-item">Manpower solution</a>
+                  <a href="#" class="dropdown-item">Ethernet cables</a>
+                  <a href="#" class="dropdown-item">Manpower solution</a>
+                  <a href="#" class="dropdown-item">Industrial safety products</a>
+                  <a href="#" class="dropdown-item">Manpower solution</a>
+                  <a href="#" class="dropdown-item">Insudtril interface and panel accessories</a>
                 </div>
-                <div class="nav-item dropdown navBar">
-                    <a href="products.html" class="navBar dropdown-toggle "  >Products</a>
-                    <div class="dropdown-menu">
-                        <a href="siemens.html" class="dropdown-item">Siemens</a>
-                        <a href="abb.html" class="dropdown-item">ABB</a>
-                        <a href="schneider.html" class="dropdown-item">Schneider Electric </a>
-                        <a href="mitsubishi.html" class="dropdown-item">Mitsubishi Electric</a>
-                        <a href="rockwell.html" class="dropdown-item">Rockwell automation</a>
-                        <a href="omron.html" class="dropdown-item">Omron</a>
-                        <a href="delta.html" class="dropdown-item">Delta</a>
-                        <a href="danfoss.html" class="dropdown-item">Danfoss</a>
-                    </div>
-                </div>
-                  <!-- <a href="about.html" class="nav-item  navBar">About</a> -->
-                <a href="contactus.html" class="nav-item  navBar">Contact Us</a>
-            </div>
-        </div>
-    </nav>
-</header>
-<main>
-  <!-- details card section starts from here -->
-<section class="details-card">
-    <div class="container" style="width: 70rem;">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-3" >
-                <div class="card-content" >
-                    <div class="card-img"  >
-
-                        <img class="img-1" src="image/abb.jpeg" alt="">
-
-                        <span><h4><img src="image/siemens-logo.png" alt=""></h4></span>
-                    </div>
-                    <div class="card-desc">
-
-
-                            <a href="siemens.html" class="btn-card">View Products</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card-content">
-                    <div class="card-img">
-                        <img src="image/siemen1.jpeg" alt="">
-                        <span><h4><img src="image/abb-logo.png" alt=""></h4></span>
-                    </div>
-                    <div class="card-desc">
-
-                            <a href="abb.html" class="btn-card">View products</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card-content">
-                    <div class="card-img">
-                        <img src="image/schneider.jpeg" alt="">
-                          <span><h4><img src="image/schneider-logo.png" alt=""></h4></span>
-                    </div>
-                    <div class="card-desc">
-
-                            <a href="schneider.html" class="btn-card">View Products</a>
-                    </div>
-
-
-
-                </div>
-
-
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card-content">
-                    <div class="card-img">
-                        <img src="image/delta.jpeg" alt="">
-                          <span><h4><img src="image/delta-logo.png" alt=""></h4></span>
-                    </div>
-                    <div class="card-desc">
-
-                            <a href="delta.html" class="btn-card">View Products</a>
-                    </div>
-
-
-
-                </div>
-
-
-            </div>
-
-</div>
-
-    <div class="container2">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card-content">
-                    <div class="card-img">
-
-                        <img src="image/mitsubishi.jpeg" alt="">
-
-                          <span><h4><img src="image/mitsubishi-logo.png" alt=""></h4></span>
-                    </div>
-                    <div class="card-desc">
-
-                            <a href="mitsubishi.html" class="btn-card">View Products</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card-content">
-                    <div class="card-img">
-                        <img src="image/rockwell-automation.jpeg" alt="">
-                          <span><h4><img src="image/rockwell-automation-logo.png" alt=""></h4></span>
-                    </div>
-                    <div class="card-desc">
-
-                            <a href="rockwell.html" class="btn-card">View Products</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card-content">
-                    <div class="card-img">
-                        <img src="image/omron.jpeg" alt="">
-                        <span><h4><img src="image/omron-logo.png" alt=""></h4></span>
-                    </div>
-                    <div class="card-desc">
-
-                            <a href="omron.html" class="btn-card">View products</a>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card-content">
-                    <div class="card-img">
-                        <img src="image/danfoss.jpeg" alt="">
-                          <span><h4><img src="image/danfoss-logo.png" alt=""></h4></span>
-                    </div>
-                    <div class="card-desc">
-
-                            <a href="danfoss.html" class="btn-card">View Products</a>
-                    </div>
-
-
-
-                </div>
-
-
-            </div>
-            <div class="more2">
-
-
-              <button type="button" class="btn btn-outline-success button">More Items</button>
               </div>
+              <div class="nav-item dropdown navBar">
+                <a href="products.html" class="navBar dropdown-toggle ">Products</a>
+                <div class="dropdown-menu">
+                  <a href="siemens.html" class="dropdown-item">Siemens</a>
+                  <a href="abb.html" class="dropdown-item">ABB</a>
+                  <a href="schneider.html" class="dropdown-item">Schneider Electric </a>
+                  <a href="mitsubishi.html" class="dropdown-item">Mitsubishi Electric</a>
+                  <a href="rockwell.html" class="dropdown-item">Rockwell automation</a>
+                  <a href="omron.html" class="dropdown-item">Omron</a>
+                  <a href="delta.html" class="dropdown-item">Delta</a>
+                  <a href="danfoss.html" class="dropdown-item">Danfoss</a>
+                </div>
+              </div>
+              <!-- <a href="about.html" class="nav-item  navBar">About</a> -->
+              <a href="contactus.html" class="nav-item  navBar">Contact Us</a>
+            </div>
+          </div>
+        </nav>
+  </header>
+  <main>
+    <!-- details card section starts from here -->
+      <section class="white-section" id="pricing">
 
-</section>
+    <div class="row col1">
+
+
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <span>
+              <h4><img  class="siemens-logo" src="image/siemens-logo.png" alt=""></h4>
+            </span>
+          </div>
+          <div class="card-body">
+            <img class="danfoss-img" src="image/abb.jpeg" alt="">
+
+            <button class="btn btn-lg btn-block btn-outline-dark " type="button"> <a class="products-btn" href="siemens.html">View prducts</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <span>
+              <h4><img class="danfoss-logo" src="image/abb-logo.png" alt=""></h4>
+            </span>
+          </div>
+          <div class="card-body">
+            <img class="danfoss-img" src="image/siemen1.jpeg" alt="">
+
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button"> <a class="products-btn" href="abb.html">View prducts</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <span>
+              <h4><img class="danfoss-logo" src="image/schneider-logo.png" alt=""></h4>
+            </span>
+          </div>
+          <div class="card-body">
+            <img class="danfoss-img" src="image/schneider.jpeg" alt="">
+
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button"> <a class="products-btn" href="schneider.html">View prducts</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <span>
+              <h4><img class="danfoss-logo" src="image/mitsubishi-logo.png" alt=""></h4>
+            </span>
+          </div>
+          <div class="card-body">
+            <img class="danfoss-img" src="image/mitsubishi.jpeg" alt="">
+
+
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button"> <a class="products-btn" href="mitsubishi.html">View prducts</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <span>
+              <h4><img class="danfoss-logo" src="image/rockwell-automation-logo.png" alt=""></h4>
+            </span>
+          </div>
+          <div class="card-body">
+            <img class="danfoss-img" src="image/rockwell-automation.jpeg" alt="">
+
+  <button class="btn btn-lg btn-block btn-outline-dark" type="button"> <a class="products-btn" href="rockwell.html">View prducts</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <span>
+              <h4><img class="omron-logo" src="image/omron-logo.png" alt=""></h4>
+            </span>
+          </div>
+          <div class="card-body">
+            <img class="danfoss-img" src="image/omron.jpeg" alt="">
 
 
 
-<!-- details card section starts from here -->
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button"> <a class="products-btn" href="omron.html">View prducts</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <span>
+              <h4><img class="danfoss-logo" src="image/danfoss-logo.png" alt=""></h4>
+            </span>
+          </div>
+          <div class="card-body">
+            <img class="danfoss-img" src="image/danfoss.jpeg" alt="">
+
+
+
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button"> <a class="products-btn" href="danfos.html">View prducts</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header ">
+            <span >
+              <h4 ><img class="danfoss-logo" src="image/delta-logo.png" alt=""></h4>
+            </span>
+          </div>
+          <div class="card-body">
+            <img class="danfoss-img" src="image/delta.jpeg" alt="">
+
+
+
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button"> <a class="products-btn" href="delta.html">View prducts</a></button>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+          </div>
+
+
+        </div>
+
+
+        </section>
+
+
+
+        <!-- details card section starts from here -->
