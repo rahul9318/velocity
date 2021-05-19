@@ -1,18 +1,28 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(function () {
+      $('#header').load(header.html)
+
+    })
+
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.83.1">
     <title>velocityautomation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
   <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="carousel.css" rel="stylesheet">
-    <link href="about.css" rel="stylesheet">
+            <link href="about.css" rel="stylesheet">
 
  <!-- Bootstrap Js -->
    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
@@ -40,6 +50,7 @@
           font-size: 3.5rem;
         }
       }
+
     </style>
     <style>
     .dropdown:hover .dropdown-menu{
@@ -60,67 +71,107 @@ $(document).ready(function(){
 });
 </script>
 
+<!--navbar script -->
+
+
+
 
     <!-- Custom styles for this template -->
+    <!--new nav bar -->
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+      <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+      <link rel="stylesheet" href="css-1/owl.carousel.min.css">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css-1/bootstrap.min.css">
+
+      <!-- Style -->
+      <link rel="stylesheet" href="css-1/style.css">
+
+
 
   </head>
   <body>
 
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-
-      <a class="navbar-brand" href="index.html"><img src="image/velocity.png" alt=""></a>
+  <body>
 
 
+    <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <header class="site-navbar nav-1" role="banner">
 
 
+    <div class="container ">
+      <div class="row align-items-center">
 
-
-
-
-<div class="navigation">
-
-</div>
-
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-              <a href="about.html" class="nav-item   navBar">About</a>
-
-
-                <div class="nav-item dropdown navBar">
-                  <a href="services.html" class="navBar dropdown-toggle "  >Services</a>
-
-                    <div class="dropdown-menu">
-                      <a href="" class="dropdown-item">Automation Services</a>
-                      <a href="#" class="dropdown-item">Designing Services</a>
-                      <a href="#" class="dropdown-item">Training Services</a>
-                    </div>
-                </div>
-                <div class="nav-item dropdown navBar">
-                    <a href="products.html" class="navBar dropdown-toggle "  >Products</a>
-                    <div class="dropdown-menu">
-                        <a href="siemens.html" class="dropdown-item">Siemens</a>
-                        <a href="abb.html" class="dropdown-item">ABB</a>
-                        <a href="schneider.html" class="dropdown-item">Schneider Electric </a>
-                        <a href="mitsubishi.html" class="dropdown-item">Mitsubishi Electric</a>
-                        <a href="rockwell.html" class="dropdown-item">Rockwell automation</a>
-                        <a href="omron.html" class="dropdown-item">Omron</a>
-                        <a href="delta.html" class="dropdown-item">Delta</a>
-                        <a href="danfoss.html" class="dropdown-item">Danfoss</a>
-                    </div>
-                </div>
-                  <!-- <a href="about.html" class="nav-item  navBar">About</a> -->
-                <a href="contactus.html" class="nav-item  navBar">Contact Us</a>
-            </div>
+        <div class="col-11 col-xl-2">
+          <h1 class="mb-0 site-logo"><a href="index.html" class="text-white mb-0">
+            <img src="image/velocity.png" alt="">
+          </a></h1>
         </div>
-    </nav>
-</header>
+        <div class="col-12 col-md-10 d-none d-xl-block">
+          <nav class="site-navigation position-relative text-right" role="navigation">
+
+            <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+              <li ><a href="about.html"><span>About</span></a></li>
+              <li class="has-children">
+                <a href="services.html"><span>Services</span></a>
+                <ul class="dropdown arrow-top">
+                  <li><a href="#">Automation Services</a></li>
+                  <li><a href="#">Designing Services</a></li>
+                  <li><a href="#">Training Services</a></li>
+                  <li class="has-children">
+
+
+
+                </ul>
+              </li>
+              <li class="has-children">
+                <a href="about.html"><span>products</span></a>
+                <ul class="dropdown arrow-top">
+                  <li><a href="siemens.html">Siemens</a></li>
+                    <li><a href="abb.html">Abb</a></li>
+                  <li><a href="schneider.html">Schneider</a></li>
+                  <li><a href="rockwell.html">    Rockwell automation</a></li>
+                  <li><a href="mitsubishi.html">Mitsubishi Electric</a></li>
+                  <li><a href="omron.html">omron Electric</a></li>
+                  <li><a href="delta.html">Delta Electric</a></li>
+
+
+
+
+                </ul>
+              </li>
+
+
+
+              <li><a href="contactus.html"><span>Contact</span></a></li>
+            </ul>
+          </nav>
+        </div>
+
+
+        <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
 <main>
 
 
@@ -182,7 +233,11 @@ $(document).ready(function(){
 </main>
 
 
-
+<script src="js-2/jquery-3.3.1.min.js"></script>
+  <script src="js-2/popper.min.js"></script>
+  <script src="js-2/bootstrap.min.js"></script>
+  <script src="js-2/jquery.sticky.js"></script>
+  <script src="js-2/main.js"></script>
 
 </body>
 </html>
