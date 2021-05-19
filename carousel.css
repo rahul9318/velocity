@@ -924,3 +924,47 @@ a {
   .site-logo{
     padding-left: -10px;
   }
+
+  /*footer*/
+  .con-2{
+    background-color: #1b262c;
+    padding-top: 30px;
+  }
+  .footer-1{
+    color: white;
+
+    position: relative;
+    right: -200px;
+
+
+
+  }
+  .con-3{
+    position: relative;
+    right: -700px;
+    top:-170px;
+  }
+  .copy-2{
+    position: relative;
+    top:-90px;
+    right: -80px;
+  }
+  .what-4{
+    position: relative;
+    right: -1300px;
+    top: -80px;
+  }
+  .h-a{
+    color: white;
+    font-size: 20px;
+  }
+  .h4{
+    color: white;
+
+  }
+  .h-0{
+    color: white;
+    font-size: 20px;
+  }
+
+  /*abb --*/
