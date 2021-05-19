@@ -563,6 +563,7 @@ top: -150px;
    text-align:center;
    position: relative;
    top: -30px;
+   color: #aaaaaa;
  }
  .what-2{
    text-align: right;
@@ -574,7 +575,14 @@ top: -150px;
  .what-2{
    position: relative;
    top:-180px
+
  }
  .h7{
    padding-top: 10px;
+ }
+ .what-3{
+   
+   color: #6c757d;
+
+
  }

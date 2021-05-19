@@ -206,6 +206,38 @@ body {
     text-align: center;
 
   }
+  /*homepage */
+  .testimonial{
+    position: relative;
+    top: 0px;
+  height: 60px;
+  width: 70px;
+  }
+
+  .what-2{
+    position: relative;
+    right:-130px;
+    top: -93px;
+
+  }
+  .what-3{
+    font-size: 15px;
+    color: #6c757d;
+
+
+  }
+  .copy-2{
+    font-size: 15px;
+    color: #aaaaaa;
+  }
+  .fa .fa-whatsapp{
+    font-size: 26px;
+  }
+
+
+
+
+  /*homepage end ----*/
   .P9{padding-top: 10px;
     font-family: 'Newsreader', serif;
   padding-left: 5px;
